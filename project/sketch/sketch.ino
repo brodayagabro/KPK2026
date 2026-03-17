@@ -5,7 +5,7 @@ int potVal = 0;
 int threshold = 512;
 servo serv1;
 void setup() {
-  serv1.attach(5);
+  serv1.attach(6);
   Serial.begin(9600);
 }
 
